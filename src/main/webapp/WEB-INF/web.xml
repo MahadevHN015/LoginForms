@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.tap.servlets.LoginServlets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet1</display-name>
+    <servlet-name>LoginServlet1</servlet-name>
+    <servlet-class>com.tap.servlets.LoginServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet1</servlet-name>
+    <url-pattern>/serve1</url-pattern>
+  </servlet-mapping>
+</web-app>
